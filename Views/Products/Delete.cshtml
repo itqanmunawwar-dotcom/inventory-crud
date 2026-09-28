@@ -1,0 +1,3 @@
+@model Inventory.Web.Models.Product
+@{ ViewData["Title"] = "Delete product"; }
+<div class="form-shell"><p class="eyebrow text-danger">Delete product</p><h1>Remove @Model.Name?</h1><p class="text-muted">This action cannot be undone.</p><form asp-action="Delete" method="post"><input type="hidden" asp-for="Id" /><button type="submit" class="btn btn-danger">Delete product</button> <a asp-action="Index" class="btn btn-link">Cancel</a></form></div>

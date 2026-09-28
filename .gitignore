@@ -1,0 +1,13 @@
+bin/
+obj/
+.dotnet/
+.nuget/
+dotnet-install.ps1
+inventory.db
+inventory.db-shm
+inventory.db-wal
+*.user
+*.csproj.user
+.vs/
+.templateengine/
+/inventory-crud/

@@ -1,0 +1,4 @@
+@model Inventory.Web.Models.Product
+@{ ViewData["Title"] = "Edit product"; }
+<div class="form-shell"><p class="eyebrow">Inventory</p><h1>Edit product</h1><p class="text-muted">Update the catalogue item.</p><form asp-action="Edit" method="post"><input type="hidden" asp-for="Id" /><partial name="_Form" model="Model" /><button type="submit" class="btn btn-primary">Save changes</button> <a asp-action="Index" class="btn btn-link">Cancel</a></form></div>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

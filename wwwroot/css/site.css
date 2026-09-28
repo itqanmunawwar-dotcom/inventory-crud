@@ -1,0 +1,28 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background: #f7f8fa;
+}
+
+.eyebrow { color: #536dfe; font-size: .75rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.form-shell { background: white; border-radius: 12px; box-shadow: 0 .25rem 1rem rgba(28, 39, 60, .06); max-width: 720px; padding: 2rem; }
+.empty-state { background: white; border: 1px dashed #cbd2dc; border-radius: 12px; padding: 3rem; text-align: center; }
+.table thead th { color: #667085; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }
